@@ -1,0 +1,44 @@
+<!-- This is the project for the second assignment in the bootcamp
+it serves the sole purpose of creating a registration form 
+for a fake website. IT uses all the input methods that are genreally 
+used -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" name="First Name" id="fname" placeholder="John" required>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="Last Name" id="lname" placeholder="Smith" required>
+    </form>
+    <form>
+        <label for="male">Male</label>
+        <input type="radio" name="Male" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="Female" id="female">
+        <label for="other">Other</label>
+        <input type="radio" name="Other" id="other">
+    </form>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="email" required>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" minlength="5" maxlength="10" required>
+
+
+
+    </form>
+</body>
+
+</html>
