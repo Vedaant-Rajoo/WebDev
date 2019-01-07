@@ -32,12 +32,40 @@ used -->
     </form>
     <form>
         <label for="email">Email:</label>
-        <input type="email" name="Email" id="email" required>
+        <input type="email" placeholder="Your Email" name="Email" id="email" required>
         <label for="password">Password:</label>
-        <input type="password" name="password" id="password" minlength="5" maxlength="10" required>
+        <input type="password" name="password" id="password" minlength="5" maxlength="10" placeholder="Password" required>
+
+        <div>
+            <label>
+                Birthday:
+                <select name="Month ">
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                    <option value="">Mar</option>
+                    <option value="">Apr</option>
+                </select>
+                <select name="Day" id="">
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                </select>
+                <select name="Year" id="">
+                    <option value="">1999</option>
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                </select>
+            </label>
+
+        </div>
+        <div>
+            <label for="agreed">I agreed to the terms and conditions</label>
+            <input type="checkbox" name="Checkbox" id="agreed">
+        </div>
 
 
-
+        <input type="submit" value="Submit">
     </form>
 </body>
 
