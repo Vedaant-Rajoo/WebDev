@@ -1,0 +1,13 @@
+body {
+    background: rgb(179, 76, 76);
+    background-blend-mode: hue;
+    color: rgb(187, 133, 33);
+}
+
+#special {
+    color: yellow;
+}
+
+li {
+    color: red;
+}
