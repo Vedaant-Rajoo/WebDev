@@ -1,0 +1,22 @@
+there are many selectors apart from the class, id and element type.
+Below there is discussed 5 more selectors available in CSS.
+
+1. Star selectors
+*{
+
+}
+applies to each element.
+
+2. Adjacent selectors
+h4 + ul{
+
+}
+all uls after h4
+
+3.Descendant selectors
+all tags descendant of another tag
+li a{
+    color: lightgrey;
+}
+
+4.
