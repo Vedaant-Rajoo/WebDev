@@ -15,8 +15,19 @@ all uls after h4
 
 3.Descendant selectors
 all tags descendant of another tag
-li a{
+li a {
     color: lightgrey;
 }
 
-4.
+
+4.Attribute selectors
+a[href='http://www.google.com']{
+    background: blue;
+}
+all attributes mentioned are selected
+
+5.nth of type:
+every nth of any tag is selected
+ul:nth-of-type(3){
+    background:purple;
+}
