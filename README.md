@@ -1,5 +1,5 @@
 ---
-permalink: /gallery.html
+permalink: /index.html
 ---
 
 
