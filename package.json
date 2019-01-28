@@ -1,0 +1,23 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "first package.json",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vedaant-Rajoo/WebDev.git"
+  },
+  "author": "vedaant rajoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vedaant-Rajoo/WebDev/issues"
+  },
+  "homepage": "https://github.com/Vedaant-Rajoo/WebDev#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.7"
+  }
+}
