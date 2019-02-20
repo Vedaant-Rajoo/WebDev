@@ -1,5 +1,5 @@
 ---
-permalink: /index.html
+permalink: https://vedaantrajoo.me
 ---
 
 
