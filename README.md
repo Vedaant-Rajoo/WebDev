@@ -11,3 +11,4 @@ This is the repository for my web development bootcamp.
 # Try to read the comments before you raise issues
 # you can fork and include more folders if you like.
 
+create issues if you want
